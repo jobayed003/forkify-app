@@ -1,5 +1,6 @@
 import icons from 'url:../../img/icons.svg'; // Parcel 2
-import { Fraction } from 'fraction.js';
+import { Fraction } from 'fractional';
+const Fraction = require('fractional').Fraction;
 
 export default class View {
   _data;
