@@ -1,8 +1,8 @@
 import View from './View';
-
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from 'url:../../img/icons.svg'; // Parcel 2
 import { Fraction } from 'fraction.js';
+const Fraction = require('fraction.js').Fraction;
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
